@@ -1,0 +1,10 @@
+[project]
+name = "journal-api"
+version = "0.1.0"
+description = "REST API студенческого журнала (лабораторная работа №1, вариант 2)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.162.0",
+    "uvicorn[standard]>=0.54.0",
+]
